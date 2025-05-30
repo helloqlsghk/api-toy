@@ -1,0 +1,6 @@
+# application.yml 에서 로깅 설정
+logging:
+  level:
+    com.example.todolist: debug
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
